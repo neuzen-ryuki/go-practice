@@ -1,4 +1,5 @@
 .DS_Store
+mysql_data/
 
 # Binaries for programs and plugins
 *.exe

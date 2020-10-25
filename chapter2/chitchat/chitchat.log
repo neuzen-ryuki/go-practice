@@ -1,0 +1,16 @@
+ERROR 2020/10/25 23:11:02 utils.go:100: dial tcp 127.0.0.1:3306: connect: connection refused Cannot create user
+ERROR 2020/10/25 23:11:09 utils.go:100: dial tcp 127.0.0.1:3306: connect: connection refused Cannot find user
+ERROR 2020/10/25 23:11:24 utils.go:100: dial tcp 127.0.0.1:3306: connect: connection refused Cannot create user
+ERROR 2020/10/25 23:11:31 utils.go:100: dial tcp 127.0.0.1:3306: connect: connection refused Cannot find user
+ERROR 2020/10/25 23:11:40 utils.go:100: dial tcp 127.0.0.1:3306: connect: connection refused Cannot find user
+ERROR 2020/10/25 23:17:33 utils.go:100: Error 1049: Unknown database 'sample_db' Cannot create user
+ERROR 2020/10/25 23:17:40 utils.go:100: Error 1049: Unknown database 'sample_db' Cannot find user
+ERROR 2020/10/25 23:17:51 utils.go:100: Error 1049: Unknown database 'sample_db' Cannot find user
+ERROR 2020/10/25 23:18:01 utils.go:100: Error 1049: Unknown database 'sample_db' Cannot create user
+ERROR 2020/10/25 23:18:23 utils.go:100: Error 1049: Unknown database 'sample_db' Cannot find user
+ERROR 2020/10/25 23:29:29 utils.go:100: Error 1054: Unknown column '$1' in 'where clause' Cannot find user
+ERROR 2020/10/25 23:29:54 utils.go:100: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'returning id, uuid, created_at' at line 1 Cannot create user
+ERROR 2020/10/25 23:30:00 utils.go:100: Error 1054: Unknown column '$1' in 'where clause' Cannot find user
+ERROR 2020/10/25 23:30:09 utils.go:100: Error 1054: Unknown column '$1' in 'where clause' Cannot find user
+ERROR 2020/10/25 23:32:21 utils.go:100: Error 1054: Unknown column '$1' in 'where clause' Cannot find user
+ERROR 2020/10/25 23:32:38 utils.go:100: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'returning id, uuid, created_at' at line 1 Cannot create user
